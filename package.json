@@ -1,0 +1,15 @@
+{
+  "name": "tastylog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "workspaces": [
+    "projects/*",
+    "practice/tastylog"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suzu",
+  "license": "MIT"
+}
