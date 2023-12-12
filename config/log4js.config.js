@@ -8,13 +8,13 @@ module.exports = {
     },
     ApplicationLogAppender: {
       type: "dateFile",
-      filename: path.join(LOG_ROOT_DIR, "application.log"),
+      filename: path.join(LOG_ROOT_DIR, "./application.log"),
       pattern: "yyyyMMdd",
       daysToKeep: 7,
     },
     AccessLogAppender: {
       type: "dateFile",
-      filename: path.join(LOG_ROOT_DIR, "access.log"),
+      filename: path.join(LOG_ROOT_DIR, "./access.log"),
       pattern: "yyyyMMdd",
       daysToKeep: 7,
     },

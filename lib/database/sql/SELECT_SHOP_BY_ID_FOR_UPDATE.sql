@@ -4,3 +4,4 @@ FROM
   t_shop
 WHERE
   id = ?
+FOR UPDATE
